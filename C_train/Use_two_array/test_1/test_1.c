@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 int main(void) {
-
-    int num1[3][5] = {{0, 1, 2, 3, 4}, {1, 2, 3, 4, 5}, {2, 3, 4, 5, 6}};
+    //二次元配列の第一要素は省略できる
+    int num1[][5] = {{0, 1, 2, 3, 4}, {1, 2, 3, 4, 5}, {2, 3, 4, 5, 6}};
 
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 5; j++) {
@@ -32,7 +32,7 @@ int main(void) {
 
     
     // 文字列の配列（char型の二次元配列）
-    char cities[3][16] = {"aim",
+    char cities[][16] = {"aim",
                                                     "aim", 
                                                     "aim"};
     

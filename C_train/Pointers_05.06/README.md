@@ -1,3 +1,2 @@
 2023/05/06, <br>
 Reference sites : https://www.sejuku.net/blog/25094 <br>
-Use_array : https://www.sejuku.net/blog/24359, https://www.sejuku.net/blog/24394 <br>
