@@ -44,5 +44,10 @@ int main(void) {
     char char_array_1[] = {'H', 'E', 'L', 'L', 'O'};
     printf("%s\n", char_array_1); 
 
+
+    //文字列で初期化
+    char char_array_2[] = "HELLO";
+    printf("%s\n", char_array_2);
+
     return 0; 
 }
